@@ -1,6 +1,23 @@
 
 # PUBS Database - Data Profiling
 ## Table: Titles
+## Objective
+Analyze the Titles table to understand data quality and structure.
+
+## Steps Performed
+
+### 1. Table Structure
+- Columns reviewed: title_id, title, type, price, pubdate
+
+### 2. Data Quality Checks
+- NULL values checked in key columns
+- Duplicate titles identified
+- Data types verified
+
+### 3. Key Findings
+- Some missing values in price column
+- Title column is mostly clean
+- Limited data inconsistency observed
 <?xml version="1.0"?>
 <DataProfile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/sqlserver/2008/DataDebugger/">
   <ProfileVersion>1.0</ProfileVersion>
